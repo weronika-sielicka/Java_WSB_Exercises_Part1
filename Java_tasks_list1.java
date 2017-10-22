@@ -43,7 +43,21 @@ public class Java_tasks_list1 {
                      
             default: System.out.println("You must initialize the operator variable!");
        }
-              
+
+    
+    //Task 2
+    System.out.println(" "); //To make reading the output easier
+
+    //User age
+    
+    byte usrAge = 20;
+    
+    if (usrAge >= 0 && usrAge < 11) System.out.println("The user is a child.");
+    else if (usrAge > 11 && usrAge < 18) System.out.println("The user is a teenager.");
+    else if (usrAge > 18 && usrAge < 60) System.out.println("The user is an adult.");
+    else if (usrAge > 60) System.out.println("The user is a senior.");
+    else System.out.println("The value of usrAge is incorrect.");
+    
     
    }
     
