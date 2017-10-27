@@ -58,7 +58,22 @@ public class Java_tasks_list1 {
     else if (usrAge > 60) System.out.println("The user is a senior.");
     else System.out.println("The value of usrAge is incorrect.");
     
+
+   //Task3
+    System.out.println(" "); 
+
     
+    int A = 1997;
+    double B = 3.14;
+    char C = '+';
+    boolean D = true;
+    
+    System.out.println("Zmienna A ma wartość " + A);
+    System.out.println("Zmienna B ma wartość " + B);
+    System.out.println("Zmienna C ma wartość " + C);
+    System.out.println("Zmienna D ma wartość " + D);
+
+ 
    }
     
 }
