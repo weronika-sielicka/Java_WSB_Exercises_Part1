@@ -73,7 +73,22 @@ public class Java_tasks_list1 {
     System.out.println("Zmienna C ma wartość " + C);
     System.out.println("Zmienna D ma wartość " + D);
 
- 
+
+    //Task 4
+    System.out.println(" ");
+
+    char checkMe = 'W';
+    int type = String.valueOf(checkMe).codePointAt(0); //Conversion into ASCII
+
+    
+    System.out.println(type);
+    
+    if (type <= 57) System.out.println("It's a digit!");
+    else if (type >= 65 && type <= 90) System.out.println("It's a capital letter!");
+    else if (type >= 97 && type <= 122) System.out.println("It's a small letter!");
+    else System.out.println("It's a special character!"); 
+
+
    }
     
 }
