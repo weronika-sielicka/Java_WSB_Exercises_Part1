@@ -89,6 +89,21 @@ public class Java_tasks_list1 {
     else System.out.println("It's a special character!"); 
 
 
+    //Task 5 - extra task
+    System.out.println(" ");
+
+    char check = 'W';
+    int checkType = String.valueOf(check).codePointAt(0); //Conversion into ASCII
+    String checkAsString = Character.toString(check);
+
+    
+  
+    if (checkType <= 57) System.out.println("It's a digit!");
+    else if (checkType >= 65 && checkType <= 90) System.out.println("It's a capital letter!" + " It's " + check + " and in lowercase it's " + checkAsString.toLowerCase());
+    else if (checkType >= 97 && checkType <= 122) System.out.println("It's a small letter!" + " It's " + check + " and in uppercase it's " + checkAsString.toUpperCase());
+    else System.out.println("It's a special character!");
+
+
    }
     
 }
